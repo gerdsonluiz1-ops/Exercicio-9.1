@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início - Guia de Locais e Eventos de Suzano</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body class="pagina-grade">
+
+    <header>
+        <div class="identidade">
+            <h1>Guia de Suzano</h1>
+            <p class="subtitulo">Locais e Eventos</p>
+        </div>
+
+        <nav aria-label="Navegação principal">
+            <ul>
+                <li><a href="index.html" aria-current="page">Início</a></li>
+                <li><a href="locais.html">Locais</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <aside class="lateral">
+        <nav aria-label="Categorias">
+            <h2 class="visualmente-oculto">Categorias</h2>
+            <ul>
+                <li><a href="locais.html#parques">Parques</a></li>
+                <li><a href="locais.html#museus">Museus</a></li>
+                <li><a href="locais.html#teatros">Teatros</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main>
+
+        <!-- Etapa 1: destaque com conteúdo centralizado nos dois eixos -->
+        <section class="hero">
+            <h2>Descubra os melhores locais e eventos de Suzano</h2>
+            <p>
+                Parques, praças e a programação cultural da cidade reunidos em um só lugar,
+                para você planejar sua próxima saída.
+            </p>
+            <a class="botao-primario" href="#destaques">Ver destaques</a>
+        </section>
+
+        <!-- Etapa 2: grade de cards que quebra linha conforme o espaço disponível -->
+        <section id="destaques">
+            <h2>Destaques</h2>
+            <p class="descricao-secao">Locais e eventos em alta esta semana</p>
+
+            <div class="cards">
+                <a class="card" href="detalhe.html">
+                    <span class="categoria">Local</span>
+                    <h3>Parque Max Feffer</h3>
+                    <p>
+                        Áreas verdes, pista de caminhada, skate park e a fonte interativa Acqua Play,
+                        aberto todos os dias das 6h às 21h.
+                    </p>
+                    <span class="link-card">Ver detalhes</span>
+                </a>
+
+                <article class="card">
+                    <span class="categoria">Evento</span>
+                    <h3>Feira de Artesanato e Produtos Orgânicos</h3>
+                    <p>
+                        Barracas com artesanato local, produtos orgânicos e alimentação, no circuito
+                        interno do Parque Max Feffer.
+                    </p>
+                    <a class="link-card" href="eventos.html">Ver detalhes</a>
+                </article>
+
+                <article class="card">
+                    <span class="categoria">Local</span>
+                    <h3>Parque Ecológico Ki-Sawada</h3>
+                    <p>
+                        Trilhas arborizadas, viveiro de mudas e espaço para piquenique, ideal para
+                        um passeio tranquilo em família.
+                    </p>
+                    <a class="link-card" href="locais.html">Ver detalhes</a>
+                </article>
+
+                <article class="card">
+                    <span class="categoria">Evento</span>
+                    <h3>Sessão de Cinema ao Ar Livre</h3>
+                    <p>
+                        Exibições gratuitas na Arena Suzano, com telão e som ao ar livre para toda
+                        a família.
+                    </p>
+                    <a class="link-card" href="eventos.html">Ver detalhes</a>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <nav aria-label="Navegação do rodapé">
+            <ul class="menu-vertical">
+                <li><a href="index.html" aria-current="page">Início</a></li>
+                <li><a href="locais.html">Locais</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+
+        <p>Guia de Locais e Eventos — projeto de exercício em aula</p>
+        <p>Suzano, SP — 2026</p>
+    </footer>
+
+</body>
+
+</html>
